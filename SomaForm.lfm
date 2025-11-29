@@ -1,0 +1,29 @@
+object FrmSoma: TFrmSoma
+  Left = 250
+  Top = 250
+  Width = 300
+  Height = 300
+  Caption = 'Somar 10 Números'
+  object EdNum: TEdit
+    Left = 20
+    Top = 20
+    Width = 100
+  end
+  object BtnAdd: TButton
+    Left = 140
+    Top = 20
+    Caption = 'Adicionar'
+  end
+  object MemoNums: TMemo
+    Left = 20
+    Top = 70
+    Width = 100
+    Height = 200
+  end
+  object MemoRes: TMemo
+    Left = 140
+    Top = 70
+    Width = 120
+    Height = 200
+  end
+end

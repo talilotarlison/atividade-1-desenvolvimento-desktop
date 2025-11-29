@@ -1,0 +1,48 @@
+object FrmEq2: TFrmEq2
+  Left = 150
+  Top = 150
+  Width = 300
+  Height = 300
+  Caption = 'Equação 2º Grau'
+  object LabelA: TLabel
+    Left = 20
+    Top = 20
+    Caption = 'A:'
+  end
+  object EdA: TEdit
+    Left = 50
+    Top = 20
+    Width = 80
+  end
+  object LabelB: TLabel
+    Left = 20
+    Top = 55
+    Caption = 'B:'
+  end
+  object EdB: TEdit
+    Left = 50
+    Top = 55
+    Width = 80
+  end
+  object LabelC: TLabel
+    Left = 20
+    Top = 90
+    Caption = 'C:'
+  end
+  object EdC: TEdit
+    Left = 50
+    Top = 90
+    Width = 80
+  end
+  object BtnCalc: TButton
+    Left = 20
+    Top = 130
+    Caption = 'Calcular'
+  end
+  object MemoRes: TMemo
+    Left = 20
+    Top = 170
+    Width = 200
+    Height = 100
+  end
+end

@@ -1,0 +1,13 @@
+object FrmPares: TFrmPares
+  Left = 200
+  Top = 200
+  Width = 200
+  Height = 300
+  Caption = 'Números Pares'
+  object MemoPares: TMemo
+    Left = 10
+    Top = 10
+    Width = 150
+    Height = 250
+  end
+end
