@@ -1,0 +1,74 @@
+object Form1: TForm1
+  Left = 262
+  Height = 527
+  Top = 123
+  Width = 605
+  Caption = 'Form1'
+  ClientHeight = 527
+  ClientWidth = 605
+  LCLVersion = '4.4.0.0'
+  object EditA: TEdit
+    Left = 72
+    Height = 23
+    Top = 49
+    Width = 416
+    TabOrder = 0
+    Text = 'EditA'
+  end
+  object EditB: TEdit
+    Left = 72
+    Height = 23
+    Top = 120
+    Width = 416
+    TabOrder = 1
+    Text = 'EditB'
+  end
+  object EditC: TEdit
+    Left = 72
+    Height = 23
+    Top = 184
+    Width = 416
+    TabOrder = 2
+    Text = 'EditC'
+  end
+  object MemoOut: TMemo
+    Left = 80
+    Height = 170
+    Top = 320
+    Width = 416
+    Lines.Strings = (
+      'MemoOut'
+    )
+    TabOrder = 3
+  end
+  object ButtonCalcular: TButton
+    Left = 376
+    Height = 25
+    Top = 232
+    Width = 112
+    Caption = 'Calcular'
+    TabOrder = 4
+    OnClick = ButtonCalcularClick
+  end
+  object LabelA: TLabel
+    Left = 72
+    Height = 15
+    Top = 24
+    Width = 36
+    Caption = 'LabelA'
+  end
+  object LabelB: TLabel
+    Left = 72
+    Height = 15
+    Top = 96
+    Width = 35
+    Caption = 'LabelB'
+  end
+  object LabelC: TLabel
+    Left = 74
+    Height = 15
+    Top = 160
+    Width = 36
+    Caption = 'LabelC'
+  end
+end
