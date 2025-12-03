@@ -1,0 +1,183 @@
+object Form1: TForm1
+  Left = 262
+  Height = 690
+  Top = 123
+  Width = 632
+  Caption = 'Soma Numeros'
+  ClientHeight = 690
+  ClientWidth = 632
+  LCLVersion = '4.4.0.0'
+  object EditNum1: TEdit
+    Left = 120
+    Height = 23
+    Top = 32
+    Width = 416
+    TabOrder = 0
+    Text = 'EditNum1'
+  end
+  object EditNum2: TEdit
+    Left = 120
+    Height = 23
+    Top = 64
+    Width = 416
+    TabOrder = 1
+    Text = 'EditNum2'
+    OnChange = EditNum2Change
+  end
+  object EditNum3: TEdit
+    Left = 120
+    Height = 23
+    Top = 104
+    Width = 416
+    TabOrder = 2
+    Text = 'EditNum3'
+    OnChange = EditNum3Change
+  end
+  object EditNum4: TEdit
+    Left = 120
+    Height = 23
+    Top = 144
+    Width = 416
+    TabOrder = 3
+    Text = 'EditNum4'
+    OnChange = EditNum4Change
+  end
+  object EditNum5: TEdit
+    Left = 120
+    Height = 23
+    Top = 184
+    Width = 416
+    TabOrder = 4
+    Text = 'EditNum5'
+    OnChange = EditNum5Change
+  end
+  object EditNum6: TEdit
+    Left = 120
+    Height = 23
+    Top = 224
+    Width = 416
+    TabOrder = 5
+    Text = 'EditNum6'
+  end
+  object EditNum7: TEdit
+    Left = 120
+    Height = 23
+    Top = 264
+    Width = 416
+    TabOrder = 6
+    Text = 'EditNum7'
+  end
+  object EditNum8: TEdit
+    Left = 120
+    Height = 23
+    Top = 304
+    Width = 416
+    TabOrder = 7
+    Text = 'EditNum8'
+    OnChange = EditNum8Change
+  end
+  object EditNum9: TEdit
+    Left = 120
+    Height = 23
+    Top = 344
+    Width = 416
+    TabOrder = 8
+    Text = 'EditNum9'
+  end
+  object EditNum10: TEdit
+    Left = 120
+    Height = 23
+    Top = 384
+    Width = 416
+    TabOrder = 9
+    Text = 'EditNum10'
+  end
+  object Label1: TLabel
+    Left = 56
+    Height = 15
+    Top = 40
+    Width = 53
+    Caption = 'Numero1:'
+  end
+  object Label2: TLabel
+    Left = 56
+    Height = 15
+    Top = 72
+    Width = 53
+    Caption = 'Numero2:'
+  end
+  object Label3: TLabel
+    Left = 56
+    Height = 15
+    Top = 112
+    Width = 53
+    Caption = 'Numero3:'
+  end
+  object Label4: TLabel
+    Left = 56
+    Height = 15
+    Top = 144
+    Width = 53
+    Caption = 'Numero3:'
+    OnClick = Label4Click
+  end
+  object Label5: TLabel
+    Left = 56
+    Height = 15
+    Top = 184
+    Width = 53
+    Caption = 'Numero5:'
+  end
+  object Label6: TLabel
+    Left = 56
+    Height = 15
+    Top = 224
+    Width = 53
+    Caption = 'Numero6:'
+  end
+  object Label7: TLabel
+    Left = 56
+    Height = 15
+    Top = 264
+    Width = 53
+    Caption = 'Numero7:'
+  end
+  object Label8: TLabel
+    Left = 51
+    Height = 15
+    Top = 304
+    Width = 53
+    Caption = 'Numero8:'
+  end
+  object Label9: TLabel
+    Left = 51
+    Height = 15
+    Top = 344
+    Width = 53
+    Caption = 'Numero9:'
+  end
+  object Label10: TLabel
+    Left = 51
+    Height = 15
+    Top = 384
+    Width = 59
+    Caption = 'Numero10:'
+  end
+  object ButtonCalcular: TButton
+    Left = 416
+    Height = 25
+    Top = 448
+    Width = 107
+    Caption = 'Calcular Soma'
+    TabOrder = 10
+    OnClick = ButtonCalcularClick
+  end
+  object LabelResultado: TLabel
+    Left = 88
+    Height = 15
+    Top = 520
+    Width = 55
+    Caption = 'Resultado:'
+    OnClick = LabelResultadoClick
+  end
+end
