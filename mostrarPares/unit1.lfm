@@ -1,0 +1,31 @@
+object Form1: TForm1
+  Left = 294
+  Height = 672
+  Top = 123
+  Width = 1033
+  Caption = 'NumerosPares'
+  ClientHeight = 672
+  ClientWidth = 1033
+  LCLVersion = '4.4.0.0'
+  OnCreate = FormCreate
+  object NumerosPares: TMemo
+    Left = 40
+    Height = 552
+    Top = 24
+    Width = 958
+    Lines.Strings = (
+      'MemoOut'
+    )
+    TabOrder = 0
+    OnChange = NumerosParesChange
+  end
+  object ButtonMostrar: TButton
+    Left = 880
+    Height = 33
+    Top = 608
+    Width = 91
+    Caption = 'Mostrar Pares'
+    TabOrder = 1
+    OnClick = ButtonMostrarClick
+  end
+end
